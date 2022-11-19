@@ -6,8 +6,10 @@ This app uses `puppeteer`. Its goal is to get data from SensCritique's scouts an
 
 https://www.digitalocean.com/community/tutorials/how-to-scrape-a-website-using-node-js-and-puppeteer
 
-https://www.senscritique.com/Eneeria/contacts
+https://www.senscritique.com/<username>/contacts
 
 ## Run locally
 
-`npm run start`
+```Javascript
+node server.js <senscritique_username>
+```
