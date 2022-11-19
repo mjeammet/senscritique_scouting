@@ -1,6 +1,12 @@
 const browserObject = require('./browser');
 const scraperController = require('./pageController');
 
+const userame = process.argv[2];
+if (userame == undefined){
+    console.log("Please provide a username.");
+    return;
+}
+
 //Start the browser and create a browser instance
 let browserInstance = browserObject.startBrowser();
 
