@@ -5,10 +5,11 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	  "start": "node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
     "puppeteer": "^19.2.2"
   }
 }
